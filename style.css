@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 119px;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    align-items: center;
+    background-color: black;
+
+}
+
+.links{
+    display: flex;
+    gap: 30px;
+}
+
+.links2{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+    
+}
+
+.search-input{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+       
+}
+.search-input input{
+    width: 55%;
+    padding: 10px 10px;
+    border-radius: 25px;
+   border: 0;
+    outline: 0;
+   font-family: sans-serif;
+   color: black;
+   font-size: 15px;
+
+
+}
+
+.search-input i{
+    font-size: 20px;
+    position: absolute;
+    left: 73%;
+
+}
+
+/* swiper css */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+ 
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* movie-grid */
+
+  .movies-grid{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        background-color: black;
+        
+
+    
+}
+
+.Movie-card{
+    display: flex;
+    gap: 20px;
+    padding: 20px 20px;
+    margin: auto;
+
+
+}
+
+.headings{
+    border: 1px solid black;
+    width: 400px;
+    height: 300px;
+    line-height: 2;
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 10px 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.headings h2{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+
+.headings span{
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+.headings p{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+#main-heading{
+    line-height:2;
+    color: #fff;
+    
+}
+
